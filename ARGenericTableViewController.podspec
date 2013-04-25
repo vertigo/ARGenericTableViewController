@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ARGenericTableViewController'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.license  = { :type => 'MIT'}
   s.summary      = 'iOS component to configure TableViews.'
   s.homepage = 'https://github.com/arconsis/ARGenericTableViewController'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   }
   s.source = {
     :git => 'https://github.com/arconsis/ARGenericTableViewController.git',
-    :tag => '1.0.0'
+    :tag => '1.0.1'
   }
   s.platform = :ios,'5.0'
   s.source_files = 'Classes', 'Classes/**/*.{h,m}'
