@@ -30,7 +30,7 @@
     self = [super init];
     if (self) {
         self.editingStyle = UITableViewCellEditingStyleDelete;
-        self.heigth = 45;
+        self.height = 45;
         self.keepSelection = NO;
         self.editable = NO;
         self.identifier = identifier;
@@ -43,7 +43,7 @@
     return [self initWithIdentifier:nil];
 }
 
-- (CGFloat)heigth
+- (CGFloat)height
 {
     if (_heigth < 0 || self.cellDynamicHeightBlock) {
         return 0;

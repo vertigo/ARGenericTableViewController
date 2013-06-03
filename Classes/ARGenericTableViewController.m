@@ -211,7 +211,7 @@
     if (cellData.cellDynamicHeightBlock) {
         return cellData.cellDynamicHeightBlock(tableView, indexPath);
     } else {
-        return cellData.heigth;
+        return cellData.height;
     }
 }
 

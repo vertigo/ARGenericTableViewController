@@ -33,7 +33,7 @@ typedef void (^CellMoveBlock_t)(UITableView *tableView, NSIndexPath *fromIndexPa
 @property (nonatomic)           BOOL keepSelection; // default is NO
 
 // cell height
-@property (nonatomic)           CGFloat heigth; // default is 44
+@property (nonatomic)           CGFloat height; // default is 44
 @property (nonatomic, strong)   CellDynamicHeightBlock_t cellDynamicHeightBlock;
 
 // used to configure the appearance of the cell
