@@ -45,10 +45,10 @@
 
 - (CGFloat)height
 {
-    if (_heigth < 0 || self.cellDynamicHeightBlock) {
+    if (_height < 0 || self.cellDynamicHeightBlock) {
         return 0;
     } else {
-        return _heigth;
+        return _height;
     }
 }
 
