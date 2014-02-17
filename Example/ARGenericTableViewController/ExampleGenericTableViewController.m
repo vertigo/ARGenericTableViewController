@@ -40,7 +40,7 @@
     for (int i = 0; i < 3; i++) {
         ARCellData *cellData = [[ARCellData alloc] initWithIdentifier:@"Cell"];
         cellData.editable = YES;
-        cellData.heigth = 44 + 10 * i;
+        cellData.height = 44 + 10 * i;
 
         [cellData setCellConfigurationBlock:^(UITableViewCell *cell) {
             // called in cellForRowAtIndexpath
