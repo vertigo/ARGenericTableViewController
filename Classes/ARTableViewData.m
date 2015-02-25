@@ -222,7 +222,7 @@
 
     if (couldAdd) {
         [self startChange];
-        for (int i = self.numberOfSections - sectionDataArray.count; i < self.numberOfSections; i++) {
+        for (NSInteger i = self.numberOfSections - sectionDataArray.count; i < self.numberOfSections; i++) {
             [self didChangeSectionAtIndex:i changeType:TableViewDataChangeInsert newIndex:i];
         }
         [self endChange];
@@ -268,11 +268,11 @@
 
 - (void)removeAllSectionData
 {
-    int numberOfSections = self.numberOfSections;
+    NSInteger numberOfSections = self.numberOfSections;
     [self.mutableSectionDataArray removeAllObjects];
 
     [self startChange];
-    for (int i = numberOfSections - 1; i >= 0; i--) {
+    for (NSInteger i = numberOfSections - 1; i >= 0; i--) {
         [self didChangeSectionAtIndex:i changeType:TableViewDataChangeDelete newIndex:-1];
     }
     [self endChange];
